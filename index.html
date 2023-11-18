@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+    <title>newsletter-sign-up-with-success-message-main</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Roboto:wght@400;500;700&family=Sevillana&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="column-1">
+          <h1>Stay updated!</h1>
+          <p>
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul>
+            <li>
+              <img src="/images/icon-list.svg" alt="icon-list" />
+              <p>Product discovery and building what matters</p>
+            </li>
+            <li>
+              <img src="/images/icon-list.svg" alt="icon-list" />
+              <p>Measuring to ensure updates are a success</p>
+            </li>
+            <li>
+              <img src="/images/icon-list.svg" alt="icon-list" />
+              <p>And much more!</p>
+            </li>
+          </ul>
+          <!-- Inputs -->
+          <form name="submit-to-google-sheet">
+            <div class="title">
+              <h2>Email address</h2>
+              <h2 class="ErrorMsg">Valid email required!</h2>
+            </div>
+            <input type="email" placeholder="email@company.com" class="input"> </input>
+            <button class="btn-1">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+        <div class="column-2">
+          <!-- <div class="imageDiv">
+            <img src="/images/illustration-sign-up-desktop.svg" alt="" />
+          </div> -->
+        </div>
+      </div>
+
+    </main>
+    <div class="submitMsg">
+      <div class="container2">
+          <div class="successLogo"><img src="/images/icon-success.svg" alt=""></div>
+          <p class="submitText">
+          <h1>Thanks for subscribing!</h1> A confirmation email has been sent to
+          <span>ash@loremcompany.com.</span> Please open it and click the button inside to
+          confirm your subscription. Dismiss message
+          </p>
+         <button class="btn-2">Dismiss message</button>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
